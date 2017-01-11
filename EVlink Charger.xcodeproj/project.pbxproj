@@ -14,6 +14,7 @@
 		A7889F7B1E26DBBE00CBB332 /* EVlinkSiriIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A7889F6E1E26DBBE00CBB332 /* EVlinkSiriIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A7889F7E1E26DBBE00CBB332 /* EVlinkSiriIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A7889F651E26DBBD00CBB332 /* EVlinkSiriIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A79EE2AB1E26DE4C004795CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79EE2AA1E26DE4C004795CD /* CoreLocation.framework */; };
+		A79EE2AE1E26E69B004795CD /* INFindChargerIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79EE2AD1E26E69B004795CD /* INFindChargerIntent.swift */; };
 		A7A18D2D1E26D76300C8E054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A18D2C1E26D76300C8E054 /* AppDelegate.swift */; };
 		A7A18D2F1E26D76300C8E054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A18D2E1E26D76300C8E054 /* ViewController.swift */; };
 		A7A18D321E26D76300C8E054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A18D301E26D76300C8E054 /* Main.storyboard */; };
@@ -79,6 +80,8 @@
 		A7889F761E26DBBE00CBB332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		A7889F781E26DBBE00CBB332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A79EE2AA1E26DE4C004795CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A79EE2AC1E26E4A3004795CD /* INFindChargingStationsIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INFindChargingStationsIntent.swift; sourceTree = "<group>"; };
+		A79EE2AD1E26E69B004795CD /* INFindChargerIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INFindChargerIntent.swift; sourceTree = "<group>"; };
 		A7A18D291E26D76300C8E054 /* EVlink Charger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EVlink Charger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A18D2C1E26D76300C8E054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7A18D2E1E26D76300C8E054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 			children = (
 				A7889F671E26DBBE00CBB332 /* IntentHandler.swift */,
 				A7889F691E26DBBE00CBB332 /* Info.plist */,
+				A79EE2AC1E26E4A3004795CD /* INFindChargingStationsIntent.swift */,
+				A79EE2AD1E26E69B004795CD /* INFindChargerIntent.swift */,
 			);
 			path = EVlinkSiriIntent;
 			sourceTree = "<group>";
@@ -427,6 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79EE2AE1E26E69B004795CD /* INFindChargerIntent.swift in Sources */,
 				A7889F681E26DBBE00CBB332 /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
