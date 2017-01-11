@@ -51,15 +51,17 @@ open class INFindChargerIntent : INIntent {
         self.groupName = groupName!
         self.serviceName = serviceName!
         self.sender = sender
+        super.init()
     }
     
-    required convenience public init?(coder aDecoder: NSCoder) {
+    required public convenience init?(coder decoder: NSCoder) {
+        
         self.init(
-            recipients: self.recipients,
-            content: self.content,
-            groupName: self.groupName,
-            serviceName: self.serviceName,
-            sender: self.sender
+            recipients: recipients,
+            content: content,
+            groupName: groupName,
+            serviceName: serviceName,
+            sender: sender
         );
     }
     
