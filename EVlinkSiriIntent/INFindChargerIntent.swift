@@ -18,33 +18,6 @@ open class INFindChargerIntent : INIntent {
     var serviceName: String
     var sender: INPerson?
     
-    /*
-    // Contacts to whom the message should be sent.
-    open var recipients: [INPerson]? {
-        get {
-            return self.recipients
-        }
-        set (recip){
-            
-        }
-    }
-    
-    
-    // Body text of the message.
-    open var content: String? { return self.content }
-    
-    
-    open var groupName: String? { return self.groupName }
-    
-    
-    // Specified service for the message.
-    open var serviceName: String? { return self.serviceName }
-    
-    
-    // The person, or account, sending the message.
-    @NSCopying open var sender: INPerson? { return self.sender }
-    */
-    
     public init(recipients: [INPerson]?, content: String?, groupName: String?, serviceName: String?, sender: INPerson?){
         self.recipients = recipients!
         self.content = content!
