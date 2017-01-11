@@ -30,7 +30,7 @@ public enum INFindChargerIntentResponseCode : Int {
 @available(iOS 10.0, *)
 open class INFindChargerIntentResponse : INIntentResponse {
     
-    open var userActivity: NSUserActivity?
+    open var userAct: NSUserActivity?
     var code: INFindChargerIntentResponseCode
     
     
@@ -39,13 +39,13 @@ open class INFindChargerIntentResponse : INIntentResponse {
     // In the case of app launch, the NSUserActivity will have its activityType set to the name of the intent. This intent object will also be available in the NSUserActivity.interaction property.
     public init(code: INFindChargerIntentResponseCode, userActivity: NSUserActivity?){
         self.code = code
-        self.userActivity = userActivity
+        self.userAct = userActivity
         super.init()
     }
     
     required convenience public init?(coder decoder: NSCoder) {
         guard let code = decoder.decodeObject(forKey: "code") as? INFindChargerIntentResponseCode,
-            let userActivity = decoder.decodeObject(forKey: "userActivity") as? NSUserActivity
+            let userActivity = decoder.decodeObject(forKey: "userAct") as? NSUserActivity
             else { return nil }
         
         self.init(
