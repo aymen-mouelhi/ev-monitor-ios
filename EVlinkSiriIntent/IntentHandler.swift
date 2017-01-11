@@ -17,7 +17,7 @@ import Intents
 // "<myApp> John saying hello"
 // "Search for messages in <myApp>"
 
-class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessagesIntentHandling, INSetMessageAttributeIntentHandling {
+class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessagesIntentHandling, INSetMessageAttributeIntentHandling, INFindChargerIntentHandling {
     
     override func handler(for intent: INIntent) -> Any {
         // This is the default implementation.  If you want different objects to handle different intents,
@@ -118,6 +118,16 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
         
         let userActivity = NSUserActivity(activityType: NSStringFromClass(INSetMessageAttributeIntent.self))
         let response = INSetMessageAttributeIntentResponse(code: .success, userActivity: userActivity)
+        completion(response)
+    }
+    
+    // INSendMessageIntent Handler
+    
+    func handle(findCharger intent: INFindChargerIntent, completion: @escaping (INFindChargerIntentResponse) -> Void) {
+        // Implement your application logic to send a message here.
+        
+        let userActivity = NSUserActivity(activityType: NSStringFromClass(INSendMessageIntent.self))
+        let response = INFindChargerIntentResponse(code: .success, userActivity: userActivity)
         completion(response)
     }
 }
