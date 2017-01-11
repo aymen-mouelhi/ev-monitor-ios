@@ -54,7 +54,7 @@ open class INFindChargerIntent : INIntent {
  @discussion The minimum requirement for an implementing class is that it should be able to handle the intent. The resolution and confirmation methods are optional. The handling method is always called last, after resolving and confirming the intent.
  */
 @available(iOS 10.0, *)
-public protocol INFindChargerIntentHandling : NSObjectProtocol {
+@objc public protocol INFindChargerIntentHandling : NSObjectProtocol {
     
     
     
@@ -105,7 +105,7 @@ public protocol INFindChargerIntentHandling : NSObjectProtocol {
     func resolveContent(forFindCharger intent: INFindChargerIntent, with completion: @escaping (INStringResolutionResult) -> Swift.Void)
     
     
-    func resolveGroupName(forFindCharger intent: INFindChargerIntent, with completion: @escaping (INStringResolutionResult) -> Swift.Void)
+    @objc optional func resolveGroupName(forFindCharger intent: INFindChargerIntent, with completion: @escaping (INStringResolutionResult) -> Swift.Void)
 }
 
 
