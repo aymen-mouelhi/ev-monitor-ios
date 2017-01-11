@@ -55,6 +55,12 @@ open class INFindChargerIntent : INIntent {
     }
     
     required public convenience init?(coder decoder: NSCoder) {
+        guard let recipients = decoder.decodeObject(forKey: "recipients") as? [INPerson],
+            let content = decoder.decodeObject(forKey: "content") as? String,
+            let groupName = decoder.decodeObject(forKey: "groupName") as? String,
+            let serviceName = decoder.decodeObject(forKey: "serviceName") as? String,
+            let sender = decoder.decodeObject(forKey: "sender") as? INPerson
+            else { return nil }
         
         self.init(
             recipients: recipients,
@@ -66,4 +72,7 @@ open class INFindChargerIntent : INIntent {
     }
     
 }
+
+
+
 
