@@ -16,6 +16,7 @@
 		A79EE2AB1E26DE4C004795CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79EE2AA1E26DE4C004795CD /* CoreLocation.framework */; };
 		A79EE2AE1E26E69B004795CD /* INFindChargerIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79EE2AD1E26E69B004795CD /* INFindChargerIntent.swift */; };
 		A79EE2B01E26EE57004795CD /* INFindChargerIntentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79EE2AF1E26EE57004795CD /* INFindChargerIntentResponse.swift */; };
+		A79EE2B21E26F4E7004795CD /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = A79EE2B11E26F4E7004795CD /* AppIntentVocabulary.plist */; };
 		A7A18D2D1E26D76300C8E054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A18D2C1E26D76300C8E054 /* AppDelegate.swift */; };
 		A7A18D2F1E26D76300C8E054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A18D2E1E26D76300C8E054 /* ViewController.swift */; };
 		A7A18D321E26D76300C8E054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A18D301E26D76300C8E054 /* Main.storyboard */; };
@@ -83,6 +84,7 @@
 		A79EE2AA1E26DE4C004795CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A79EE2AD1E26E69B004795CD /* INFindChargerIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INFindChargerIntent.swift; sourceTree = "<group>"; };
 		A79EE2AF1E26EE57004795CD /* INFindChargerIntentResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INFindChargerIntentResponse.swift; sourceTree = "<group>"; };
+		A79EE2B11E26F4E7004795CD /* AppIntentVocabulary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppIntentVocabulary.plist; sourceTree = "<group>"; };
 		A7A18D291E26D76300C8E054 /* EVlink Charger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EVlink Charger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A18D2C1E26D76300C8E054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7A18D2E1E26D76300C8E054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				A7889F691E26DBBE00CBB332 /* Info.plist */,
 				A79EE2AD1E26E69B004795CD /* INFindChargerIntent.swift */,
 				A79EE2AF1E26EE57004795CD /* INFindChargerIntentResponse.swift */,
+				A79EE2B11E26F4E7004795CD /* AppIntentVocabulary.plist */,
 			);
 			path = EVlinkSiriIntent;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79EE2B21E26F4E7004795CD /* AppIntentVocabulary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
