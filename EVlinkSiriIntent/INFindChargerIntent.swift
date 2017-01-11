@@ -12,8 +12,8 @@ import Intents
 @available(iOS 10.0, *)
 open class INFindChargerIntent : INIntent {
     
-    var recipients: [INPerson]
-    var content: String
+    var recipients: [INPerson]!
+    var content: String!
     var groupName: String
     var serviceName: String
     var sender: INPerson?
@@ -69,7 +69,7 @@ public protocol INFindChargerIntentHandling : NSObjectProtocol {
      
      @see  INSendMessageIntentResponse
      */
-    func handle(sendMessage intent: INFindChargerIntent, completion: @escaping (INFindChargerIntentResponse) -> Swift.Void)
+    func handle(findCharger intent: INFindChargerIntent, completion: @escaping (INFindChargerIntentResponse) -> Swift.Void)
     
     
     
@@ -84,7 +84,7 @@ public protocol INFindChargerIntentHandling : NSObjectProtocol {
      @see INSendMessageIntentResponse
      
      */
-    func confirm(sendMessage intent: INFindChargerIntent, completion: @escaping (INFindChargerIntentResponse) -> Swift.Void)
+    func confirm(findCharger intent: INFindChargerIntent, completion: @escaping (INFindChargerIntentResponse) -> Swift.Void)
     
     
     
@@ -99,13 +99,13 @@ public protocol INFindChargerIntentHandling : NSObjectProtocol {
      @see INIntentResolutionResult
      
      */
-    func resolveRecipients(forSendMessage intent: INFindChargerIntent, with completion: @escaping ([INPersonResolutionResult]) -> Swift.Void)
+    func resolveRecipients(forFindCharger intent: INFindChargerIntent, with completion: @escaping ([INPersonResolutionResult]) -> Swift.Void)
     
     
-    func resolveContent(forSendMessage intent: INFindChargerIntent, with completion: @escaping (INStringResolutionResult) -> Swift.Void)
+    func resolveContent(forFindCharger intent: INFindChargerIntent, with completion: @escaping (INStringResolutionResult) -> Swift.Void)
     
     
-    func resolveGroupName(forSendMessage intent: INFindChargerIntent, with completion: @escaping (INStringResolutionResult) -> Swift.Void)
+    func resolveGroupName(forFindCharger intent: INFindChargerIntent, with completion: @escaping (INStringResolutionResult) -> Swift.Void)
 }
 
 
