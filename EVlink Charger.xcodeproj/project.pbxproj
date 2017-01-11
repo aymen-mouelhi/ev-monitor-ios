@@ -81,7 +81,6 @@
 		A7889F761E26DBBE00CBB332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		A7889F781E26DBBE00CBB332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A79EE2AA1E26DE4C004795CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		A79EE2AC1E26E4A3004795CD /* INFindChargingStationsIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INFindChargingStationsIntent.swift; sourceTree = "<group>"; };
 		A79EE2AD1E26E69B004795CD /* INFindChargerIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INFindChargerIntent.swift; sourceTree = "<group>"; };
 		A79EE2AF1E26EE57004795CD /* INFindChargerIntentResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INFindChargerIntentResponse.swift; sourceTree = "<group>"; };
 		A7A18D291E26D76300C8E054 /* EVlink Charger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EVlink Charger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,7 +145,6 @@
 			children = (
 				A7889F671E26DBBE00CBB332 /* IntentHandler.swift */,
 				A7889F691E26DBBE00CBB332 /* Info.plist */,
-				A79EE2AC1E26E4A3004795CD /* INFindChargingStationsIntent.swift */,
 				A79EE2AD1E26E69B004795CD /* INFindChargerIntent.swift */,
 				A79EE2AF1E26EE57004795CD /* INFindChargerIntentResponse.swift */,
 			);
