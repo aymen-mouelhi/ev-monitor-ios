@@ -9,9 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>EVlinkSiriIntent.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>EVlinkSiriIntentUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>A7889F641E26DBBD00CBB332</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7889F6D1E26DBBE00CBB332</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A7A18D281E26D76200C8E054</key>
 		<dict>
 			<key>primary</key>

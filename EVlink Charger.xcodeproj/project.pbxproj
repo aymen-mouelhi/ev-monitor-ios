@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7889F681E26DBBE00CBB332 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7889F671E26DBBE00CBB332 /* IntentHandler.swift */; };
+		A7889F711E26DBBE00CBB332 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7889F701E26DBBE00CBB332 /* IntentsUI.framework */; };
+		A7889F741E26DBBE00CBB332 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7889F731E26DBBE00CBB332 /* IntentViewController.swift */; };
+		A7889F771E26DBBE00CBB332 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7889F751E26DBBE00CBB332 /* MainInterface.storyboard */; };
+		A7889F7B1E26DBBE00CBB332 /* EVlinkSiriIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A7889F6E1E26DBBE00CBB332 /* EVlinkSiriIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A7889F7E1E26DBBE00CBB332 /* EVlinkSiriIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A7889F651E26DBBD00CBB332 /* EVlinkSiriIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A79EE2AB1E26DE4C004795CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79EE2AA1E26DE4C004795CD /* CoreLocation.framework */; };
 		A7A18D2D1E26D76300C8E054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A18D2C1E26D76300C8E054 /* AppDelegate.swift */; };
 		A7A18D2F1E26D76300C8E054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A18D2E1E26D76300C8E054 /* ViewController.swift */; };
 		A7A18D321E26D76300C8E054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A18D301E26D76300C8E054 /* Main.storyboard */; };
@@ -17,6 +24,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A7889F791E26DBBE00CBB332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7A18D211E26D76200C8E054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7889F6D1E26DBBE00CBB332;
+			remoteInfo = EVlinkSiriIntentUI;
+		};
+		A7889F7C1E26DBBE00CBB332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7A18D211E26D76200C8E054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7889F641E26DBBD00CBB332;
+			remoteInfo = EVlinkSiriIntent;
+		};
 		A7A18D3E1E26D76300C8E054 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7A18D211E26D76200C8E054 /* Project object */;
@@ -33,7 +54,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A7889F851E26DBBE00CBB332 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A7889F7E1E26DBBE00CBB332 /* EVlinkSiriIntent.appex in Embed App Extensions */,
+				A7889F7B1E26DBBE00CBB332 /* EVlinkSiriIntentUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A7889F651E26DBBD00CBB332 /* EVlinkSiriIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EVlinkSiriIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7889F671E26DBBE00CBB332 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		A7889F691E26DBBE00CBB332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7889F6E1E26DBBE00CBB332 /* EVlinkSiriIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EVlinkSiriIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7889F701E26DBBE00CBB332 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		A7889F731E26DBBE00CBB332 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		A7889F761E26DBBE00CBB332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A7889F781E26DBBE00CBB332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79EE2AA1E26DE4C004795CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A7A18D291E26D76300C8E054 /* EVlink Charger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EVlink Charger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A18D2C1E26D76300C8E054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7A18D2E1E26D76300C8E054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,13 +92,30 @@
 		A7A18D481E26D76300C8E054 /* EVlink ChargerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EVlink ChargerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A18D4C1E26D76300C8E054 /* EVlink_ChargerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVlink_ChargerUITests.swift; sourceTree = "<group>"; };
 		A7A18D4E1E26D76300C8E054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A18D5A1E26D7E300C8E054 /* EVlink Charger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "EVlink Charger.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A7889F621E26DBBD00CBB332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7889F6B1E26DBBE00CBB332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7889F711E26DBBE00CBB332 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7A18D261E26D76200C8E054 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79EE2AB1E26DE4C004795CD /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +136,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7889F661E26DBBD00CBB332 /* EVlinkSiriIntent */ = {
+			isa = PBXGroup;
+			children = (
+				A7889F671E26DBBE00CBB332 /* IntentHandler.swift */,
+				A7889F691E26DBBE00CBB332 /* Info.plist */,
+			);
+			path = EVlinkSiriIntent;
+			sourceTree = "<group>";
+		};
+		A7889F6F1E26DBBE00CBB332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A79EE2AA1E26DE4C004795CD /* CoreLocation.framework */,
+				A7889F701E26DBBE00CBB332 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7889F721E26DBBE00CBB332 /* EVlinkSiriIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				A7889F731E26DBBE00CBB332 /* IntentViewController.swift */,
+				A7889F751E26DBBE00CBB332 /* MainInterface.storyboard */,
+				A7889F781E26DBBE00CBB332 /* Info.plist */,
+			);
+			path = EVlinkSiriIntentUI;
+			sourceTree = "<group>";
+		};
 		A7A18D201E26D76200C8E054 = {
 			isa = PBXGroup;
 			children = (
 				A7A18D2B1E26D76300C8E054 /* EVlink Charger */,
 				A7A18D401E26D76300C8E054 /* EVlink ChargerTests */,
 				A7A18D4B1E26D76300C8E054 /* EVlink ChargerUITests */,
+				A7889F661E26DBBD00CBB332 /* EVlinkSiriIntent */,
+				A7889F721E26DBBE00CBB332 /* EVlinkSiriIntentUI */,
+				A7889F6F1E26DBBE00CBB332 /* Frameworks */,
 				A7A18D2A1E26D76300C8E054 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +183,8 @@
 				A7A18D291E26D76300C8E054 /* EVlink Charger.app */,
 				A7A18D3D1E26D76300C8E054 /* EVlink ChargerTests.xctest */,
 				A7A18D481E26D76300C8E054 /* EVlink ChargerUITests.xctest */,
+				A7889F651E26DBBD00CBB332 /* EVlinkSiriIntent.appex */,
+				A7889F6E1E26DBBE00CBB332 /* EVlinkSiriIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +192,7 @@
 		A7A18D2B1E26D76300C8E054 /* EVlink Charger */ = {
 			isa = PBXGroup;
 			children = (
+				A7A18D5A1E26D7E300C8E054 /* EVlink Charger.entitlements */,
 				A7A18D2C1E26D76300C8E054 /* AppDelegate.swift */,
 				A7A18D2E1E26D76300C8E054 /* ViewController.swift */,
 				A7A18D301E26D76300C8E054 /* Main.storyboard */,
@@ -128,6 +224,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A7889F641E26DBBD00CBB332 /* EVlinkSiriIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7889F841E26DBBE00CBB332 /* Build configuration list for PBXNativeTarget "EVlinkSiriIntent" */;
+			buildPhases = (
+				A7889F611E26DBBD00CBB332 /* Sources */,
+				A7889F621E26DBBD00CBB332 /* Frameworks */,
+				A7889F631E26DBBD00CBB332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVlinkSiriIntent;
+			productName = EVlinkSiriIntent;
+			productReference = A7889F651E26DBBD00CBB332 /* EVlinkSiriIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A7889F6D1E26DBBE00CBB332 /* EVlinkSiriIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7889F831E26DBBE00CBB332 /* Build configuration list for PBXNativeTarget "EVlinkSiriIntentUI" */;
+			buildPhases = (
+				A7889F6A1E26DBBE00CBB332 /* Sources */,
+				A7889F6B1E26DBBE00CBB332 /* Frameworks */,
+				A7889F6C1E26DBBE00CBB332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVlinkSiriIntentUI;
+			productName = EVlinkSiriIntentUI;
+			productReference = A7889F6E1E26DBBE00CBB332 /* EVlinkSiriIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		A7A18D281E26D76200C8E054 /* EVlink Charger */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7A18D511E26D76300C8E054 /* Build configuration list for PBXNativeTarget "EVlink Charger" */;
@@ -135,10 +265,13 @@
 				A7A18D251E26D76200C8E054 /* Sources */,
 				A7A18D261E26D76200C8E054 /* Frameworks */,
 				A7A18D271E26D76200C8E054 /* Resources */,
+				A7889F851E26DBBE00CBB332 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A7889F7A1E26DBBE00CBB332 /* PBXTargetDependency */,
+				A7889F7D1E26DBBE00CBB332 /* PBXTargetDependency */,
 			);
 			name = "EVlink Charger";
 			productName = "EVlink Charger";
@@ -191,10 +324,25 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "aymen mouelhi";
 				TargetAttributes = {
+					A7889F641E26DBBD00CBB332 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9PWXEM5MLQ;
+						ProvisioningStyle = Automatic;
+					};
+					A7889F6D1E26DBBE00CBB332 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9PWXEM5MLQ;
+						ProvisioningStyle = Automatic;
+					};
 					A7A18D281E26D76200C8E054 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 9PWXEM5MLQ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
 					};
 					A7A18D3C1E26D76300C8E054 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -226,11 +374,28 @@
 				A7A18D281E26D76200C8E054 /* EVlink Charger */,
 				A7A18D3C1E26D76300C8E054 /* EVlink ChargerTests */,
 				A7A18D471E26D76300C8E054 /* EVlink ChargerUITests */,
+				A7889F641E26DBBD00CBB332 /* EVlinkSiriIntent */,
+				A7889F6D1E26DBBE00CBB332 /* EVlinkSiriIntentUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A7889F631E26DBBD00CBB332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7889F6C1E26DBBE00CBB332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7889F771E26DBBE00CBB332 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7A18D271E26D76200C8E054 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,6 +423,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A7889F611E26DBBD00CBB332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7889F681E26DBBE00CBB332 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7889F6A1E26DBBE00CBB332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7889F741E26DBBE00CBB332 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A7A18D251E26D76200C8E054 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,6 +467,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A7889F7A1E26DBBE00CBB332 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7889F6D1E26DBBE00CBB332 /* EVlinkSiriIntentUI */;
+			targetProxy = A7889F791E26DBBE00CBB332 /* PBXContainerItemProxy */;
+		};
+		A7889F7D1E26DBBE00CBB332 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7889F641E26DBBD00CBB332 /* EVlinkSiriIntent */;
+			targetProxy = A7889F7C1E26DBBE00CBB332 /* PBXContainerItemProxy */;
+		};
 		A7A18D3F1E26D76300C8E054 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A7A18D281E26D76200C8E054 /* EVlink Charger */;
@@ -299,6 +490,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A7889F751E26DBBE00CBB332 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7889F761E26DBBE00CBB332 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		A7A18D301E26D76300C8E054 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -318,6 +517,58 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A7889F7F1E26DBBE00CBB332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9PWXEM5MLQ;
+				INFOPLIST_FILE = EVlinkSiriIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbots.EVlink-Charger.EVlinkSiriIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A7889F801E26DBBE00CBB332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9PWXEM5MLQ;
+				INFOPLIST_FILE = EVlinkSiriIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbots.EVlink-Charger.EVlinkSiriIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A7889F811E26DBBE00CBB332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9PWXEM5MLQ;
+				INFOPLIST_FILE = EVlinkSiriIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbots.EVlink-Charger.EVlinkSiriIntentUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A7889F821E26DBBE00CBB332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9PWXEM5MLQ;
+				INFOPLIST_FILE = EVlinkSiriIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbots.EVlink-Charger.EVlinkSiriIntentUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		A7A18D4F1E26D76300C8E054 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -414,7 +665,9 @@
 		A7A18D521E26D76300C8E054 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "EVlink Charger/EVlink Charger.entitlements";
 				DEVELOPMENT_TEAM = 9PWXEM5MLQ;
 				INFOPLIST_FILE = "EVlink Charger/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -427,7 +680,9 @@
 		A7A18D531E26D76300C8E054 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "EVlink Charger/EVlink Charger.entitlements";
 				DEVELOPMENT_TEAM = 9PWXEM5MLQ;
 				INFOPLIST_FILE = "EVlink Charger/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -498,6 +753,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A7889F831E26DBBE00CBB332 /* Build configuration list for PBXNativeTarget "EVlinkSiriIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7889F811E26DBBE00CBB332 /* Debug */,
+				A7889F821E26DBBE00CBB332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7889F841E26DBBE00CBB332 /* Build configuration list for PBXNativeTarget "EVlinkSiriIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7889F7F1E26DBBE00CBB332 /* Debug */,
+				A7889F801E26DBBE00CBB332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A7A18D241E26D76200C8E054 /* Build configuration list for PBXProject "EVlink Charger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -514,6 +787,7 @@
 				A7A18D531E26D76300C8E054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7A18D541E26D76300C8E054 /* Build configuration list for PBXNativeTarget "EVlink ChargerTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +796,7 @@
 				A7A18D561E26D76300C8E054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7A18D571E26D76300C8E054 /* Build configuration list for PBXNativeTarget "EVlink ChargerUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +805,7 @@
 				A7A18D591E26D76300C8E054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
