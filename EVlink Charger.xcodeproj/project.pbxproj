@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7A18D2D1E26D76300C8E054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A18D2C1E26D76300C8E054 /* AppDelegate.swift */; };
+		A7A18D2F1E26D76300C8E054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A18D2E1E26D76300C8E054 /* ViewController.swift */; };
+		A7A18D321E26D76300C8E054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A18D301E26D76300C8E054 /* Main.storyboard */; };
+		A7A18D341E26D76300C8E054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A18D331E26D76300C8E054 /* Assets.xcassets */; };
+		A7A18D371E26D76300C8E054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A18D351E26D76300C8E054 /* LaunchScreen.storyboard */; };
+		A7A18D421E26D76300C8E054 /* EVlink_ChargerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A18D411E26D76300C8E054 /* EVlink_ChargerTests.swift */; };
+		A7A18D4D1E26D76300C8E054 /* EVlink_ChargerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A18D4C1E26D76300C8E054 /* EVlink_ChargerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7A18D3E1E26D76300C8E054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7A18D211E26D76200C8E054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7A18D281E26D76200C8E054;
+			remoteInfo = "EVlink Charger";
+		};
+		A7A18D491E26D76300C8E054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7A18D211E26D76200C8E054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7A18D281E26D76200C8E054;
+			remoteInfo = "EVlink Charger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7A18D291E26D76300C8E054 /* EVlink Charger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EVlink Charger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A18D2C1E26D76300C8E054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7A18D2E1E26D76300C8E054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7A18D311E26D76300C8E054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7A18D331E26D76300C8E054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7A18D361E26D76300C8E054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7A18D381E26D76300C8E054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A18D3D1E26D76300C8E054 /* EVlink ChargerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EVlink ChargerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A18D411E26D76300C8E054 /* EVlink_ChargerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVlink_ChargerTests.swift; sourceTree = "<group>"; };
+		A7A18D431E26D76300C8E054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A18D481E26D76300C8E054 /* EVlink ChargerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EVlink ChargerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A18D4C1E26D76300C8E054 /* EVlink_ChargerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EVlink_ChargerUITests.swift; sourceTree = "<group>"; };
+		A7A18D4E1E26D76300C8E054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A18D261E26D76200C8E054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A18D3A1E26D76300C8E054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A18D451E26D76300C8E054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7A18D201E26D76200C8E054 = {
+			isa = PBXGroup;
+			children = (
+				A7A18D2B1E26D76300C8E054 /* EVlink Charger */,
+				A7A18D401E26D76300C8E054 /* EVlink ChargerTests */,
+				A7A18D4B1E26D76300C8E054 /* EVlink ChargerUITests */,
+				A7A18D2A1E26D76300C8E054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A18D2A1E26D76300C8E054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A18D291E26D76300C8E054 /* EVlink Charger.app */,
+				A7A18D3D1E26D76300C8E054 /* EVlink ChargerTests.xctest */,
+				A7A18D481E26D76300C8E054 /* EVlink ChargerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A18D2B1E26D76300C8E054 /* EVlink Charger */ = {
+			isa = PBXGroup;
+			children = (
+				A7A18D2C1E26D76300C8E054 /* AppDelegate.swift */,
+				A7A18D2E1E26D76300C8E054 /* ViewController.swift */,
+				A7A18D301E26D76300C8E054 /* Main.storyboard */,
+				A7A18D331E26D76300C8E054 /* Assets.xcassets */,
+				A7A18D351E26D76300C8E054 /* LaunchScreen.storyboard */,
+				A7A18D381E26D76300C8E054 /* Info.plist */,
+			);
+			path = "EVlink Charger";
+			sourceTree = "<group>";
+		};
+		A7A18D401E26D76300C8E054 /* EVlink ChargerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7A18D411E26D76300C8E054 /* EVlink_ChargerTests.swift */,
+				A7A18D431E26D76300C8E054 /* Info.plist */,
+			);
+			path = "EVlink ChargerTests";
+			sourceTree = "<group>";
+		};
+		A7A18D4B1E26D76300C8E054 /* EVlink ChargerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7A18D4C1E26D76300C8E054 /* EVlink_ChargerUITests.swift */,
+				A7A18D4E1E26D76300C8E054 /* Info.plist */,
+			);
+			path = "EVlink ChargerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A18D281E26D76200C8E054 /* EVlink Charger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A18D511E26D76300C8E054 /* Build configuration list for PBXNativeTarget "EVlink Charger" */;
+			buildPhases = (
+				A7A18D251E26D76200C8E054 /* Sources */,
+				A7A18D261E26D76200C8E054 /* Frameworks */,
+				A7A18D271E26D76200C8E054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EVlink Charger";
+			productName = "EVlink Charger";
+			productReference = A7A18D291E26D76300C8E054 /* EVlink Charger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7A18D3C1E26D76300C8E054 /* EVlink ChargerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A18D541E26D76300C8E054 /* Build configuration list for PBXNativeTarget "EVlink ChargerTests" */;
+			buildPhases = (
+				A7A18D391E26D76300C8E054 /* Sources */,
+				A7A18D3A1E26D76300C8E054 /* Frameworks */,
+				A7A18D3B1E26D76300C8E054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7A18D3F1E26D76300C8E054 /* PBXTargetDependency */,
+			);
+			name = "EVlink ChargerTests";
+			productName = "EVlink ChargerTests";
+			productReference = A7A18D3D1E26D76300C8E054 /* EVlink ChargerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7A18D471E26D76300C8E054 /* EVlink ChargerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A18D571E26D76300C8E054 /* Build configuration list for PBXNativeTarget "EVlink ChargerUITests" */;
+			buildPhases = (
+				A7A18D441E26D76300C8E054 /* Sources */,
+				A7A18D451E26D76300C8E054 /* Frameworks */,
+				A7A18D461E26D76300C8E054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7A18D4A1E26D76300C8E054 /* PBXTargetDependency */,
+			);
+			name = "EVlink ChargerUITests";
+			productName = "EVlink ChargerUITests";
+			productReference = A7A18D481E26D76300C8E054 /* EVlink ChargerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A18D211E26D76200C8E054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "aymen mouelhi";
+				TargetAttributes = {
+					A7A18D281E26D76200C8E054 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9PWXEM5MLQ;
+						ProvisioningStyle = Automatic;
+					};
+					A7A18D3C1E26D76300C8E054 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9PWXEM5MLQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7A18D281E26D76200C8E054;
+					};
+					A7A18D471E26D76300C8E054 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9PWXEM5MLQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7A18D281E26D76200C8E054;
+					};
+				};
+			};
+			buildConfigurationList = A7A18D241E26D76200C8E054 /* Build configuration list for PBXProject "EVlink Charger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7A18D201E26D76200C8E054;
+			productRefGroup = A7A18D2A1E26D76300C8E054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A18D281E26D76200C8E054 /* EVlink Charger */,
+				A7A18D3C1E26D76300C8E054 /* EVlink ChargerTests */,
+				A7A18D471E26D76300C8E054 /* EVlink ChargerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A18D271E26D76200C8E054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A18D371E26D76300C8E054 /* LaunchScreen.storyboard in Resources */,
+				A7A18D341E26D76300C8E054 /* Assets.xcassets in Resources */,
+				A7A18D321E26D76300C8E054 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A18D3B1E26D76300C8E054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A18D461E26D76300C8E054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A18D251E26D76200C8E054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A18D2F1E26D76300C8E054 /* ViewController.swift in Sources */,
+				A7A18D2D1E26D76300C8E054 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A18D391E26D76300C8E054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A18D421E26D76300C8E054 /* EVlink_ChargerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A18D441E26D76300C8E054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A18D4D1E26D76300C8E054 /* EVlink_ChargerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7A18D3F1E26D76300C8E054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7A18D281E26D76200C8E054 /* EVlink Charger */;
+			targetProxy = A7A18D3E1E26D76300C8E054 /* PBXContainerItemProxy */;
+		};
+		A7A18D4A1E26D76300C8E054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7A18D281E26D76200C8E054 /* EVlink Charger */;
+			targetProxy = A7A18D491E26D76300C8E054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7A18D301E26D76300C8E054 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A18D311E26D76300C8E054 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7A18D351E26D76300C8E054 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A18D361E26D76300C8E054 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7A18D4F1E26D76300C8E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7A18D501E26D76300C8E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A18D521E26D76300C8E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9PWXEM5MLQ;
+				INFOPLIST_FILE = "EVlink Charger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbots.EVlink-Charger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A7A18D531E26D76300C8E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9PWXEM5MLQ;
+				INFOPLIST_FILE = "EVlink Charger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbots.EVlink-Charger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A7A18D551E26D76300C8E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9PWXEM5MLQ;
+				INFOPLIST_FILE = "EVlink ChargerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbots.EVlink-ChargerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EVlink Charger.app/EVlink Charger";
+			};
+			name = Debug;
+		};
+		A7A18D561E26D76300C8E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9PWXEM5MLQ;
+				INFOPLIST_FILE = "EVlink ChargerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbots.EVlink-ChargerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EVlink Charger.app/EVlink Charger";
+			};
+			name = Release;
+		};
+		A7A18D581E26D76300C8E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9PWXEM5MLQ;
+				INFOPLIST_FILE = "EVlink ChargerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbots.EVlink-ChargerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "EVlink Charger";
+			};
+			name = Debug;
+		};
+		A7A18D591E26D76300C8E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9PWXEM5MLQ;
+				INFOPLIST_FILE = "EVlink ChargerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartbots.EVlink-ChargerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "EVlink Charger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A18D241E26D76200C8E054 /* Build configuration list for PBXProject "EVlink Charger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A18D4F1E26D76300C8E054 /* Debug */,
+				A7A18D501E26D76300C8E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A18D511E26D76300C8E054 /* Build configuration list for PBXNativeTarget "EVlink Charger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A18D521E26D76300C8E054 /* Debug */,
+				A7A18D531E26D76300C8E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7A18D541E26D76300C8E054 /* Build configuration list for PBXNativeTarget "EVlink ChargerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A18D551E26D76300C8E054 /* Debug */,
+				A7A18D561E26D76300C8E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7A18D571E26D76300C8E054 /* Build configuration list for PBXNativeTarget "EVlink ChargerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A18D581E26D76300C8E054 /* Debug */,
+				A7A18D591E26D76300C8E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7A18D211E26D76200C8E054 /* Project object */;
+}
