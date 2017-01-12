@@ -20,6 +20,7 @@
 			<string>INFindChargerIntent</string>
 			<key>IntentExamples</key>
 			<array>
+				<string>Find a charging station</string>
 				<string>Siri, I need to charge my car</string>
 				<string>My car is out of battery</string>
 			</array>
